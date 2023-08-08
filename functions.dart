@@ -14,8 +14,8 @@ void main() {
   print("The sum of two numbers is: ${c}");
 
   //anonymous function
-  const list = ['apples', 'bananas', 'oranges'];
-  list.map((item){
+  const list = ['apples', 'bananas', 'oranges']; //anonymous function with untyped parameter item
+  list.map((item){            //map function invoked each item in the list
     return item.toUpperCase();
 
   }).forEach((item) {
