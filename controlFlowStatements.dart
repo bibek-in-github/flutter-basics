@@ -18,4 +18,17 @@ void main() {
   } else {
     print("b is greater than a");
   }
+
+//dart if else if statement
+  var c = 10;
+  var d = 10;
+  print("Bibek - If else Statement");
+
+  if (c > d) {
+    print("c is greater than d");
+  } else if (c == d) {
+    print("c and d are equal");
+  } else {
+    print("d is greater than c");
+  }
 }
