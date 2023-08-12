@@ -87,6 +87,10 @@ void main() {
 
   //for loop
   for (int i = 0; i < 5; i++) {
-        print('Bibek Mahat');
-    }
+    print('Bibek Mahat');
+  }
+
+  //for each loop
+  var bibek = [1, 2, 3, 4, 5];
+  bibek.forEach((var num) => print(num));
 }
