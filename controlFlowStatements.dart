@@ -101,4 +101,12 @@ void main() {
         print('Hello Girl');
         i++;
     }
+
+    //do while loop
+     var myVar2 = 4;
+    int j = 1;
+    do {
+        print('Hello Girl');
+        i++;
+    } while (j <= myVar2);
 }
