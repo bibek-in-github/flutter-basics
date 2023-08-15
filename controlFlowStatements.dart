@@ -95,18 +95,18 @@ void main() {
   bibek.forEach((var num) => print(num));
 
   //while loop
-     var myVar = 4;
-    int i = 1;
-    while (i <= myVar) {
-        print('Hello Girl');
-        i++;
-    }
+  var myVar = 4;
+  int i = 1;
+  while (i <= myVar) {
+    print('Hello Girl');
+    i++;
+  }
 
-    //do while loop
-     var myVar2 = 4;
-    int j = 1;
-    do {
-        print('Hello Girl');
-        i++;
-    } while (j <= myVar2);
+  //do while loop
+  var myVar2 = 4;
+  int j = 1;
+  do {
+    print('Hello Girl');
+    i++;
+  } while (j <= myVar2);
 }
