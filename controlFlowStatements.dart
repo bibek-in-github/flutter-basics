@@ -93,4 +93,12 @@ void main() {
   //for each loop
   var bibek = [1, 2, 3, 4, 5];
   bibek.forEach((var num) => print(num));
+
+  //while loop
+     var myVar = 4;
+    int i = 1;
+    while (i <= myVar) {
+        print('Hello Girl');
+        i++;
+    }
 }
